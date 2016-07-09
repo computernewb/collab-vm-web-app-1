@@ -1,5 +1,5 @@
 # collab-vm-web-app
-The Collab VM Web App is a portion of the Collab VM website. It powers the web portion of the site. (Note: This is not the collab-vm-server.)
+The Collab VM Web App powers the website-portion of Collab VM and the Virus Farm.
 
 # What it contains
 * The scripts that power CollabVM.

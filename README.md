@@ -5,7 +5,7 @@ The Collab VM Web App is a portion of the Collab VM website. It powers the web p
 * The scripts that power CollabVM.
 
 # Compilation requirements
-To compile this, you need a *nix or a Windows-like environment. This has only been compiled on x64 (amd64), but it should work on other architectures (like x86 or arm). You need a system that supports node.js and npm. node.js and npm run on Windows, Mac OS X, virtually any Linux distribution, FreeBSD, OpenBSD, Android, NetBSD, OpenSUSE, SmartOS, WebOS, NonStop OS, and other operating systems. (However, this specific package has only been tested on x64 Windows and x64 Ubuntu). 
+To compile this, you need a *nix or a Windows-like environment. This has only been compiled on x64 (amd64), but it should work on other architectures (like x86 or arm). You need a system that supports node.js and npm. node.js and npm run on Windows, Mac OS X, virtually any Linux distribution, FreeBSD, OpenBSD, Android, NetBSD, OpenSUSE, SmartOS, WebOS, NonStop OS, and other operating systems. (However, compilation has only been tested on x64 Windows 7 and x64 Ubuntu 14.04 and 16.04). 
 
 That's basically all the requirements needed.
 

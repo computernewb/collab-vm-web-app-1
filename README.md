@@ -19,7 +19,7 @@ To build the web app, follow these steps.
 * Step 4: Open the web-app directory and type: npm install
 * Step 5: (Optionally) change the settings in common.js or set some of the DEBUG settings to true in collab-vm.js
 * Step 6: If you're testing this locally, you need to set DEBUG = true in collab-vm.js and do: gulp guacamole. (If you're not testing this locally, this isn't required.)
-* Step 7: Type gulp.
+* Step 7: Type gulp (or you can compile them indivdiually by typing gulp js, gulp html, etc).
 
 # License
 Apache License 2.0

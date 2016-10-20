@@ -22,4 +22,4 @@ To build the web app, follow these steps.
 * Step 7: Type gulp (or you can compile them indivdiually by typing gulp js, gulp html, etc).
 
 # License
-Apache License 2.0
+Collab VM Web App, as well as Collab VM Admin Web App and Collab VM Server are licensed under the [Apache License](https://www.apache.org/licenses/LICENSE-2.0).

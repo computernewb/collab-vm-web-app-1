@@ -489,15 +489,7 @@ function setVoteStats(parameters) {
 	voteInterval = setInterval(voteStatus, 1000);
 
 	if (!hasVoted) {
-		var voteAlert = $("#vote-alert");
-		var canVote = parameters[4] === "1";
-		if (voteAlert.is(":visible")) {
-			if (!canVote) {
-				voteAlert.hide();
-				hasVoted = true;
-			}
-		} else if (canVote)
-			voteAlert.show();
+		$("#vote-alert").show();
 	}
 }
 

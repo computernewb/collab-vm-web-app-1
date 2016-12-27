@@ -646,7 +646,39 @@ $(function() {
 		hasVoted = true;
 		tunnel.sendMessage("vote", "1");
 	});
+	//Just gonna add it here since I know tunnel.sendMessage is defined
+	function supportCanvas() {
+		var a = document.createElement('canvas');
+		try {
+			return !!(elem.getContext && elem.getContext('2d'));
+		} catch (err) {
+			return false;
+		}
+	}
 	
+	function printCanvas() {
+		var canvas = document.createElement('canvas');
+		var c = canvas.getContext('2d');
+		var t = 'AbCd,EfGh<GENTOO>123.6';
+		
+		c.textBasline = "top";
+		c.font = "14px 'Arial'";
+		c.textBaseline = "alphabetic";
+		c.fillStyle = "#f60";
+		c.fillRect(125, 1, 62, 20);
+		c.fillStyle = "#069";
+		c.fillText(t, 2, 15);
+		c.fillStyle = "rgba(102, 204, 0, 0.7)";
+		c.fillText(t, 4, 17);
+	return canvas.toDataURL();
+	}
+	
+	if(supportCanvas()) {
+		var print = printCanvas();
+		var print = md5(print);
+		tunnel.sendMessage("5.print,32." + print + ";");
+	}
+
 	$("#vote-yes").click(function() {
 		if (!hasVoted) {
 			hasVoted = true;
